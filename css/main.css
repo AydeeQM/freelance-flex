@@ -1,0 +1,49 @@
+/*
+ * Estilos de tu proyecto
+ */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+    font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #212529;
+    width:100%;
+    margin:auto;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    line-height: 1.71429;
+    background-color: #fff;
+    overflow-x:hidden;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+a:active, a:focus,a:hover {
+    color: #18bc9c;
+    outline:0
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight:700;
+    text-transform:uppercase
+}
